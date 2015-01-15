@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TIY Form</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <!--<div class="long-div"
+
+    http://localhost:8000/forms.html?userName= Chris&userEmail=&gender=Male&favFoods=choc&favFoods=nilla
+
+  </div>-->
+
+  <form method="post" action="forms.html">
+  <div class="about-you">
+    <h1>ABOUT YOU!</h1>
+    <div>
+      <label>Enter your full name</label>
+      <input type="text" placeholder="Full name" name="FullName" autofocus>
+    </div>
+
+    <div>
+      <label>Enter your phone number</label>
+      <input type="phoneNumber" placeholder="Phone Number" name="PhoneNumber">
+    </div>
+
+    <div>
+      <label>Enter your email</label>
+      <input type="email" placeholder="Email" name="Email">
+    </div>
+
+    <div>
+
+      <textarea name="briefBio" placeholder="Brief bio"></textarea>
+
+    </div>
+
+    <div>
+
+      <label>
+        Check if duck:
+        <input type="radio" name="waterFowl" value="duck">
+      </label>
+<br>
+      <label>
+        Check if goose:
+        <input type="radio" name="waterFowl" value="goose">
+      </label>
+
+    </div>
+</div> <!--end class "about-you"-->
+
+<div class="notifications-agreement">
+
+  <h1>NOTIFICATIONS</h1>
+
+    <div>Notification Preferences:
+
+      <label>
+        SMS
+        <input type="checkbox" name="notificationPref" value="sms">
+      </label>
+
+      <label>
+        Email
+        <input type="checkbox" name="notificationPref" value="email">
+      </label>
+
+    </div>
+
+    <div>
+      <label>
+        By signing up, do you accept the terms and conditions?
+        <input type="checkbox" name="acceptTerms" value="yes">
+      </label>
+
+    </div>
+
+    <button type="submit">Sign Up</button>
+
+</div class="notifications-agreement">    <!--end class "notifications-agreement"-->
+
+</body>
+</html>
+
+
+  </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #9FB3B5;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 100;
+  color: #444;
+}
+
+.about-you {
+  border: 0.25em solid #444;
+  width: 200px;
+  margin: 5% 25%;
+  padding: 2em;
+  text-align: center;
+}
+
+.notifications-agreement {
+  border: 0.25em solid #444;
+  width: 200px;
+  margin: 5% 25%;
+  padding: 2em;
+  text-align: center;
