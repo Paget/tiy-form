@@ -5,7 +5,7 @@ body {
   border: 0;
   background: #9FB3B5;
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: #444;
   font-size: 20px;
 }
 
@@ -23,11 +23,38 @@ h1 {
 div {
   padding: 0.25em;
   margin: 0.25em;
-  background: #d0d7d9;
+  background: #dcf9c6;
 }
 
+input,
+textarea,
+select {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: 0.25em solid #444;
+  border-radius: 0.25em;
+  background: #faf8f3;
+}
 
-.about-you, .notifications-agreement {
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+  border: 1px solid #bec9cf;
+  box-shoadow 0 0 10px #719ECE;
+}
+
+textarea {
+  resize: none;
+}
+
+.birds  {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.about-you  {
   border: 0.5em solid #444;
   border-radius: 1em;
   width: 200px;
